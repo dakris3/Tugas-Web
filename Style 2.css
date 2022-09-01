@@ -1,0 +1,21 @@
+.jumbotron{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+div#content{
+    padding:20px;
+    background-color:rgb honeydew;
+}
+#content > h1{
+    background-color: rgb greenyellow;
+    padding: 15px;
+    color: rgb violet;
+}
+#content > h2{
+    background-color:azure;
+    padding: 15px;
+    color:crimson;
+}

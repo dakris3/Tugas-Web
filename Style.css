@@ -1,0 +1,111 @@
+.jumbotron{
+    paddding:60px;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(126, 252, 24);
+}
+
+div#content{/*gunanya untuk background div*/
+    padding: 20px 15px;
+    background-color:rgb(115,0,255)
+}
+#content > h2 {
+    background-color: #c7f011fd;
+    padding: 15px;
+    color: rgb(185, 233, 10);
+} 
+#content > h3{
+    background-color: #df0f0ffd;
+    padding: 15px;
+    color: rgb(42, 20, 238);
+
+}
+#content > h4{
+    background-color: #0bbeddfd;
+    padding: 15px;
+    color: rgb(238, 24, 24);
+
+}
+.box1 {
+    border-top-style: groove;
+    border-right-style: double;
+    border-bottom-style: groove;
+    border-left-style: double;
+  
+    border-width: 4px;
+    border-color: rgb(115, 0, 255);
+    width: 300px;
+    height: 150px;
+}
+
+.featured-image {
+    width: 30%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+aside {
+    width: 20%;
+    padding-left: .5em;
+    float: right;
+    border-top-style: groove;
+    border-right-style: double;
+    border-bottom-style: groove;
+    border-left-style: double;
+  
+    border-width: 4px;
+    border-color: rgb(19, 156, 247);
+    width: 350px;
+    height: 400px;
+    color: #0e0505fd;
+}
+
+.box_aside {
+    border-color: #fdd195d1 #fdd195d1 #fdd195d1 #fdd195d1;
+  }
+
+  nav {
+    background-color: #faececd1;
+    padding: 5px;
+  }
+ 
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(19, 0, 81);
+   }
+ 
+ .card {
+   box-shadow: 0px 4px 4px 0px rgb(64, 57, 120);
+   border-radius: 5px;
+   }
+ 
+ nav li {
+ display: inline;
+ list-style-type: none;
+ margin-right:20px;
+   }
+ 
+/*
+body{
+    margin:10px 15px 20px 25px;
+    background-image: linear-gradient(to left, rgb(0, 255, 191),rgb(195, 0, 255))
+}
+*/
+body{
+    margin:10px 15px 20px 25px;
+    background-color: rgb(11, 243, 127)
+}
+
+footer{
+    padding:15px;
+    color:rgb(16, 31, 238);
+   background-color: #f0102efd
+}
+img.tengah{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
